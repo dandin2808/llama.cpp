@@ -15155,9 +15155,6 @@ static ggml_status ggml_backend_vk_graph_compute(ggml_backend_t backend, ggml_cg
                 }
             }
         }
-    }
-            }
-        }
         if (ctx->perf_logger) {
             ctx->perf_logger->print_timings();
         }
